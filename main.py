@@ -306,8 +306,11 @@ async def show_how_to_order(query):
         "4. Отправьте телефон и адрес\n"
         "5. Подтвердите оплату\n\n"
         "💳 Оплата: карта, СБП\n"
-        "⭐ Для digital-товаров доступны Telegram Stars\n"
-        "🚚 Доставка: СДЭК, Boxberry, Почта России"
+        "⭐️ Telegram Stars\n"
+        "🚚 Доставка: СДЭК, Boxberry, Почта России\n\n"
+        "По всем вопросам пишите администраторам:\n"
+        "@miss_srt8\n"
+        "@Man_GPT"
     )
 
     await query.edit_message_text(
