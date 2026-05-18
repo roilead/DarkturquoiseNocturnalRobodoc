@@ -357,7 +357,7 @@ async def show_bestsellers(query):
     for p in products:
         keyboard.append([
             InlineKeyboardButton(
-                f"⭐ {p['brand']} — {format_price(p['price'])} ₽",
+                f"⭐ {p['name']} — {format_price(p['price'])} ₽",
                 callback_data=f"prod_{p['id']}"
             )
         ])
