@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Hydrating Facial Cleanser",
+    "name": "Hydrating Facial Cleanser (Увлажняющий очищающий гель)",
     "brand": "CeraVe",
     "category": "Skincare",
     "subcategory": "Cleanser",
@@ -14,7 +14,7 @@
   },
   {
     "id": 2,
-    "name": "Niacinamide 10% + Zinc 1%",
+    "name": "Niacinamide 10% + Zinc 1% (Ниацинамид 10% + Цинк 1%)",
     "brand": "The Ordinary",
     "category": "Skincare",
     "subcategory": "Serum",
@@ -27,7 +27,7 @@
   },
   {
     "id": 3,
-    "name": "Anthelios SPF 50+",
+    "name": "Anthelios SPF 50+ (Солнцезащитный крем SPF 50+)",
     "brand": "La Roche-Posay",
     "category": "SPF",
     "subcategory": "SPF",
@@ -40,7 +40,7 @@
   },
   {
     "id": 4,
-    "name": "No.3 Hair Perfector",
+    "name": "No.3 Hair Perfector (Маска-перфектор для волос №3)",
     "brand": "Olaplex",
     "category": "Haircare",
     "subcategory": "Treatment",
@@ -53,7 +53,7 @@
   },
   {
     "id": 5,
-    "name": "Advanced Snail 96 Mucin Power Essence",
+    "name": "Advanced Snail 96 Mucin Power Essence (Эссенция с муцином улитки 96%)",
     "brand": "Cosrx",
     "category": "Skincare",
     "subcategory": "Essence",
@@ -66,7 +66,7 @@
   },
   {
     "id": 6,
-    "name": "2% BHA Liquid Exfoliant",
+    "name": "2% BHA Liquid Exfoliant (Жидкий эксфолиант с BHA 2%)",
     "brand": "Paula's Choice",
     "category": "Skincare",
     "subcategory": "Exfoliant",
@@ -79,7 +79,7 @@
   },
   {
     "id": 7,
-    "name": "C-Firma Fresh Day Serum",
+    "name": "C-Firma Fresh Day Serum (Дневная сыворотка с витамином C)",
     "brand": "Drunk Elephant",
     "category": "Skincare",
     "subcategory": "Vitamin C",
@@ -92,7 +92,7 @@
   },
   {
     "id": 8,
-    "name": "Sensibio H2O Micellar Water",
+    "name": "Sensibio H2O Micellar Water (Мицеллярная вода Sensibio)",
     "brand": "Bioderma",
     "category": "Skincare",
     "subcategory": "Makeup Remover",
@@ -105,7 +105,7 @@
   },
   {
     "id": 9,
-    "name": "Leave-In Molecular Repair Hair Mask",
+    "name": "Leave-In Molecular Repair Hair Mask (Несмываемая маска для восстановления волос)",
     "brand": "K18",
     "category": "Haircare",
     "subcategory": "Mask",
@@ -118,7 +118,7 @@
   },
   {
     "id": 10,
-    "name": "Brazilian Bum Bum Cream",
+    "name": "Brazilian Bum Bum Cream (Бразильский крем для тела)",
     "brand": "Sol de Janeiro",
     "category": "Bodycare",
     "subcategory": "Body Cream",
