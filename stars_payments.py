@@ -3,12 +3,12 @@ from telegram.constants import ParseMode
 
 STARS_PRODUCTS = {
     "digital_bonus_1": {
-        "title": "Digital Bonus Pack",
+        "title": "Digital Bonus Pack (Цифровой бонус-пак)",
         "description": "Цифровой бонус, доступный для оплаты Telegram Stars",
         "stars": 100
     },
     "digital_bonus_2": {
-        "title": "Premium Beauty Guide",
+        "title": "Premium Beauty Guide (Премиум гайд по красоте)",
         "description": "Платный digital-гайд по подбору ухода",
         "stars": 250
     }
@@ -19,7 +19,7 @@ async def create_stars_invoice(query, context, payload: str):
     product = STARS_PRODUCTS.get(f"digital_{payload}")
     if not product:
         product = {
-            "title": "Beauty Digital Product",
+            "title": "Beauty Digital Product (Цифровой товар)",
             "description": "Цифровой товар для оплаты Stars",
             "stars": 100
         }
@@ -50,8 +50,8 @@ async def handle_successful_payment(update, context, admin_ids):
         "✅ Получена оплата Stars\n\n"
         f"Пользователь: {message.from_user.id}\n"
         f"Сумма: {sp.total_amount} XTR\n"
-        f"Payload: {sp.invoice_payload}\n"
-        f"Charge ID: {sp.telegram_payment_charge_id}"
+        f"Payload (Идентификатор): {sp.invoice_payload}\n"
+        f"Charge ID (ID платежа): {sp.telegram_payment_charge_id}"
     )
 
     for admin_id in admin_ids:
