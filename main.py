@@ -45,6 +45,13 @@ PRODUCTS = load_products("products_catalog.json")
 CARTS: Dict[int, List[int]] = {}
 USER_STATE: Dict[int, Dict[str, Any]] = {}
 
+CATEGORY_LABELS = {
+    "Skincare": "Skincare (Уход за кожей)",
+    "SPF": "SPF (Солнцезащита)",
+    "Haircare": "Haircare (Уход за волосами)",
+    "Bodycare": "Bodycare (Уход за телом)",
+}
+
 
 def ensure_user_state(user_id: int):
     if user_id not in USER_STATE:
@@ -131,7 +138,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def show_categories(query):
     categories = get_categories(PRODUCTS)
-    keyboard = [[InlineKeyboardButton(c, callback_data=f"cat_{c}")] for c in categories]
+    keyboard = [[InlineKeyboardButton(CATEGORY_LABELS.get(c, c), callback_data=f"cat_{c}")] for c in categories]
     keyboard.append([InlineKeyboardButton("⬅️ Назад", callback_data="back_main")])
 
     await query.edit_message_text(
