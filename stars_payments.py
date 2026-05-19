@@ -1,5 +1,4 @@
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, LabeledPrice
-from telegram.constants import ParseMode
 
 STARS_PRODUCTS = {
     "digital_bonus_1": {

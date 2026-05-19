@@ -7,7 +7,6 @@ from datetime import datetime
 from typing import Dict, List, Any
 
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.constants import ParseMode
 from telegram.ext import (
     Application,
     CommandHandler,
@@ -204,8 +203,7 @@ async def show_product_detail(query, product_id):
 
     await query.edit_message_text(
         text,
-        reply_markup=InlineKeyboardMarkup(keyboard),
-        parse_mode=ParseMode.HTML
+        reply_markup=InlineKeyboardMarkup(keyboard)
     )
 
 
